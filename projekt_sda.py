@@ -32,6 +32,7 @@ target = '192.168.1.56'
 
 scanner = nmap.PortScanner()
 openPorts = []
+#I choose only 19-23 ports becouse of faster results 
 for i in range(19, 22 + 1):
     res = scanner.scan(target, str(i))
 
