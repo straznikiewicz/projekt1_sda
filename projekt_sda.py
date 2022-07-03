@@ -1,10 +1,4 @@
-from scapy.all import *
-from scapy.layers.inet import TCP, IP, Ether
-from scapy.layers.l2 import ARP
-import netifaces
-import nmap
-import socket
-import paramiko, sys, os
+import netifaces, socket, paramiko, sys, os, nmap
 
 #Self IP finder
 
